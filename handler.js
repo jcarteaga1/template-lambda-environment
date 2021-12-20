@@ -5,7 +5,7 @@ module.exports.hello = async (event) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: 'Test environment staging',
+        message: 'Change to test template pr',
         input: event,
       },
       null,
